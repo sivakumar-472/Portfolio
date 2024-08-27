@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Responsive Personel Portfolio Website Design</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/8bf8f9cfb7.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!-- HEADER DESIGN -->
+
+<div id="header">
+    <div class="container">
+        <nav>
+            <div class="name-heading"><span class="name">S</span>ivakumar</div>
+            <ul id="sidemenu">
+                <li><a href=#header>Home</a></li>
+                <li><a href=#about>About</a></li>
+                <li><a href=#services>Services</a></li>
+                <li><a href=#portfolio>Portfolio</a></li>
+                <li><a href=#contact>Contact</a></li>
+                <i class="fa-solid fa-rectangle-xmark" onclick="closemenu()"></i>
+
+                
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+     
+        <div class="header-text">
+            <p>Full Stack Web Developer</p>
+            <h1>Hi, I'm <span>Sivakumar</span><br> From Coimbatore</h1>
+        </div>
+    
+        
+    </div>
+
+</div>
+<!-- .........................................about -->
+
+
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Sivakumar_image02.jpg" alt="User Image">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p class="white">
+                    I am a dedicated web developer with a strong foundation in the 
+                    <span>MERN stack</span>, which I honed through a comprehensive course 
+                    at Edureka Learning Center. I also have advanced skills in Java, 
+                    particularly with the Java Collection Framework, which I developed 
+                    during my upskilling at Scaler. I’m passionate about building efficient, 
+                    scalable applications and continually seek to expand my knowledge and 
+                    expertise in web development.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills',event)"style="color: black;">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience',event)"style="color: black;" >Experience</p>
+                    <p class="tab-links" onclick="opentab('education',event) "style="color: black;">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li style="color: white;"><span>Front End Developer</span><br>HTML,CSS,Javascript,React.js</li>
+                        <li style="color: white;"><span>Backend Developer</span><br>Node.js,React.js,Express.js,Advance JAVA,MongoDB</li>
+                        <li style="color: white;"><span>Full Stack Web Developer</span><br>Building Responsive and Scalable Web Applications</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li ><span>Front End Developer</span><br> Led the development of responsive and user-friendly web interfaces for various client projects.</li>
+                        <li><span>Backend Developer </span><br>Developed and maintained server-side logic for web applications as part of the MERN Stack course.</li>
+                        <li><span>Full Stack Web Developer</span><br>Developed a full-stack e-commerce platform using MERN, enabling users to browse products, manage carts, and complete transactions.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2024</span><br>MERN stack Course at Edureka Learning Center</li>
+                        <li><span>2019 - 78.5%</span><br>HSC from Government Higher Secondary School, Savakkattupalaiyam</li>
+                        <li><span>2023 - 80%</span><br>BE from Kongu Engineering College</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 
+................................services -->
+
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>E-commerce Design: Building online stores with easy navigation and secure checkout processes</p>
+                <a href="#">Learn more</a>
+
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>App Design</h2>
+                <p>User-Friendly: Making the app easy to use and navigate.</p>
+                <a href="#">Learn more</a>
+
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2> Full Stack Web Design</h2>
+                <p>To Do List: Create a To-Do List app with React for frontend, Express for backend, Node.js for server, and MongoDB for data storage.</p>
+                <a href="#">Learn more</a>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- .....................portfolio -->
+
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="/work-1.png" alt="image not available">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connect you yo the talented people around the world.Download it from play store</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png" alt="image not available">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connect you yo the talented people around the world.Download it from play store</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.png" alt="image not available">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connect you yo the talented people around the world.Download it from play store</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+
+<!-- ............contact -->
+
+
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                <p> <i class="fa-solid fa-square-phone"></i>0123456789</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <div>
+                    <a href="./my-cv.pdf" download="" class="btn btn2">Download CV</a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email"required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                
+            </div>
+        </div>
+
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Sivakumar. Made with<i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+    </div>
+ </div>
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for (var tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (var tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        
+        // Adding the active classes to the clicked tab and the corresponding content
+        var clickedTab = event.currentTarget;
+        clickedTab.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0"
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px"
+    }
+
+</script>
+
+    
+</body>
+</html>
